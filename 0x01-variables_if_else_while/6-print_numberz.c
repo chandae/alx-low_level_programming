@@ -1,4 +1,4 @@
-	#include <stdio.h>
+#include <stdio.h>
 /**
  * main - main block
  * Description: prints all single digit numbers of base 10
@@ -11,7 +11,7 @@ int main(void)
 
 	while (c < 10)
 	{
-		putchar(c);
+		putchar(48 + c);
 		c++;
 	}
 
