@@ -1,17 +1,21 @@
 #include "main.h"
+
 /**
-* main - main code block
-* description - prints the string to stdout
-* return - type int (o) is returned
-*/
+ * main - print the word alphabet
+ *
+ * Return Always 0 (Success)
+ */
+
 int main(void)
 {
 	char i;
 	char p[] = "_putchar";
+
 	for (i = 0; i < 9; i++)
 	{
 		_putchar(p[i]);
 	}
-	_putchar('\n');
+	_putchar("\n");
+
 	return (0);
 }
