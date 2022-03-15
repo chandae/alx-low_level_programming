@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * main - print the word alphabet
- *
- * Return Always 0 (Success)
+ * main - program entry point
+ * description - print the word alphabet
+ * Return:0 Always (Success)
  */
 
 int main(void)
 {
 	char i;
-	char p[] = "_putchar";
+	char p[9] = "_putchar";
 
 	for (i = 0; i < 9; i++)
 	{
