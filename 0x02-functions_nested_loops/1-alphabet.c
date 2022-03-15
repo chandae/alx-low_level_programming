@@ -1,22 +1,15 @@
 #include "main.h"
 
 /**
-*main - program entry point
+*print_alphabet - abcd
 *Description - prints the alphabet lowercase
-*Return: 1 on SUCCESS
+*Return: void.
 */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
-	char c;
+	char c = 'a';
 	
-	while ( c <= 'z')
+	while (c <= 'z')
 	{
 		_putchar(c);
 		c++;
