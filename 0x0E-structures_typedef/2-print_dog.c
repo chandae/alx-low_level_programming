@@ -14,7 +14,7 @@ if (d != NULL)
 {
 	printf("Name: %s\nAge: %f\nOwner: %s\n",
 	(*d).name != NULL ? d->name : "(nil)",
-	(*d).age != NULL ? d->name : "(nil)",
+	(*d).age != NULL ? d->age : "(nil)",
 	(*d).owner != NULL ? d->owner : "(nil)");
 }
 }
