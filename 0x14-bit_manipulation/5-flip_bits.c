@@ -24,7 +24,7 @@ unsigned int countBits(unsigned int x)
 * Description: Number of bits neded to flip to get from one number
 * to another.
 * Return: number of bits.
-  */
+*/
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
 	return (countBits(n ^ m));
