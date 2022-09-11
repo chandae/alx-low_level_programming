@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
 * main - main function
-* Return: int 1
+* Return: 0
 */
 
 int main(void)
@@ -33,5 +33,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-	return (1);
+	return (0);
 }
